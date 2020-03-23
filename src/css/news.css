@@ -1,0 +1,81 @@
+* {
+  outline: none;
+  font-family: future,sans-serif;
+}
+
+.container .row .span-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  outline: none;
+  border-bottom: 1px solid #000;
+  min-height: 73px;
+}
+
+.container .row .span-head .span-head__div {
+  font-size: 18px;
+  font-weight: 600;
+  padding-right: 55px;
+  padding: 25px 55px 25px 0;
+}
+
+.container .row .span-head .span-head__i {
+  position: absolute;
+  right: 50px;
+  bottom: 2.5px;
+}
+
+.container .row .span-head span {
+  position: absolute;
+  right: 7px;
+  font-family: FontAwesome;
+  font-size: 36px;
+  font-weight: 100;
+  -webkit-transition: .4s;
+  transition: .4s;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.container .row .span-head.turn {
+  border: none;
+}
+
+.container .row .span-head.turn span {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.container .row .span12, .container .row .span13 {
+  min-width: 95%;
+  border-bottom: 1px solid #000;
+}
+
+table tr td {
+  padding: 7px 12px;
+}
+
+table tr td:nth-child(1) {
+  background: #fff;
+}
+
+table tr td:nth-child(2) {
+  background: #eee;
+}
+
+table tr:nth-child(2n) td:nth-child(1) {
+  background: #eee;
+}
+
+table tr:nth-child(2n) td:nth-child(2) {
+  background: #fff;
+}
+
+ol li ul li {
+  list-style-type: disc;
+}
+/*# sourceMappingURL=news.css.map */
